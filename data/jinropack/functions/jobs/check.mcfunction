@@ -1,0 +1,21 @@
+say ====現在の人数====
+execute if score SYS jinro = SYS 1 run say 人狼：1
+execute if score SYS jinro = SYS 2 run say 人狼：2
+execute if score SYS jinro = SYS 3 run say 人狼：3
+execute if score SYS jinro = SYS 4 run say 人狼：4
+execute if score SYS jinro = SYS 5 run say 人狼：5
+execute if score SYS kyojin = SYS 1 run say 狂人：1
+execute if score SYS kyojin = SYS 2 run say 狂人：2
+execute if score SYS kyojin = SYS 3 run say 狂人：3
+execute if score SYS kyojin = SYS 4 run say 狂人：4
+execute if score SYS kyojin = SYS 5 run say 狂人：5
+execute if score SYS seer = SYS 1 run say 占い：1
+execute if score SYS seer = SYS 2 run say 占い：2
+execute if score SYS seer = SYS 3 run say 占い：3
+execute if score SYS seer = SYS 4 run say 占い：4
+execute if score SYS seer = SYS 5 run say 占い：5
+execute if score SYS phyc = SYS 1 run say 霊媒：1
+execute if score SYS phyc = SYS 2 run say 霊媒：2
+execute if score SYS phyc = SYS 3 run say 霊媒：3
+execute if score SYS phyc = SYS 4 run say 霊媒：4
+execute if score SYS phyc = SYS 5 run say 霊媒：5
