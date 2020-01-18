@@ -1,8 +1,7 @@
 #タイトル
 title @a[scores={jinro_join=1}] times 10 40 10
-title @a[scores={jinro_join=1}] subtitle "汝は人狼なりや？"
+title @a[scores={jinro_join=1}] subtitle {"text":"〜汝は人狼なりや？〜","color":"red","italic":true}
 title @a[scores={jinro_join=1}] title {"text":"マイクラ人狼","color":"dark_red"}
-title @a[scores={jinro_join=1}] subtitle " "
 function pack:kill_enemy
 #回復
 effect give @a[scores={jinro_join=1}] minecraft:instant_health 1 10 true
@@ -37,4 +36,4 @@ execute if entity @a[scores={phyc=1}] run setblock ~ ~2 ~ minecraft:repeating_co
 setblock ~ ~ ~ minecraft:repeating_command_block{auto: 1b,Command:"function jinropack:game/repeat_on_game"}
 #タイマー
 scoreboard players operation SYS now_time = SYS timer
-function jinropack:game/timer
+schedule function jinropack:game/timer 4s
