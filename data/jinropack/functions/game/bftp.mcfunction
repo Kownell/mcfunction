@@ -39,7 +39,7 @@ tell @a[scores={phyc=1}] "あなたは霊媒師です"
 execute as @a[team=jinro] run tell @a[team=jinro] "私は人狼です"
 #アイテムの回収，付与
 clear @a[scores={jinro_join = 1}]
-give @a[scores={jinro_join = 1}] minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:20,Operation:0,UUIDLeast:348437,UUIDMost:39435,Slot:"mainhand"}],display:{Name:"\"つよい剣\"",Lore:["つよい"]}}
+give @a[scores={jinro_join = 1}] minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:50}],display:{Name:"\"つよい剣\"",Lore:["つよい"]}}
 give @a[scores={jinro_join = 1}] minecraft:bread 12
 give @a[scores={jinro_join = 1}] arrow 64
 give @a[scores={jinro_join = 1}] minecraft:bow{Enchantments:[{id:power,lvl:50}]}
