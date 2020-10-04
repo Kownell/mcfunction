@@ -10,4 +10,3 @@ execute if score SYS invisible_p = SYS 1 run give @r[scores={jinro_join=1,have_i
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:potion"}]}] have_item 1
 execute if score SYS totem = SYS 1 run give @r[scores={jinro_join=1,have_item=0}] minecraft:totem_of_undying
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:totem_of_undying"}]}] have_item 1
-setblock ~ ~ ~ minecraft:air destroy
